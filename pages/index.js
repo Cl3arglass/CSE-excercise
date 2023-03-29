@@ -2,6 +2,7 @@ import Head from 'next/head'
 import Image from 'next/image'
 import { Inter } from 'next/font/google'
 import styles from '@/styles/Home.module.css'
+import Link from 'next/link'
 
 const inter = Inter({ subsets: ['latin'] })
 
@@ -40,13 +41,13 @@ export default function Home() {
         </div>
 
         <div className={styles.center}>
-        <p>Hello, I'm Holden. I'm a software developer and writer (Poetry). You can contact me on{' '} 
+        <p>Hello, I am Holden, a software developer and writer (Poetry). You can contact me on{' '} 
           <a href="https://www.linkedin.com/in/holden-altaffer-609033ab/">Linkedin</a>.
         </p>
         </div>
 
         <div className={styles.grid}>
-          <a
+          <Link
             href="/responses/one"
             className={styles.card}
           >
@@ -56,9 +57,9 @@ export default function Home() {
             <p className={inter.className}>
             What do you want to learn or do more of at work?
             </p>
-          </a>
+          </Link>
 
-          <a
+          <Link
             href="/responses/two"
             className={styles.card}
           >
@@ -68,9 +69,9 @@ export default function Home() {
             <p className={inter.className}>
             Describe how you solved a challenge?
             </p>
-          </a>
+          </Link>
 
-          <a
+          <Link
             href="/responses/three"
             className={styles.card}
           >
@@ -80,9 +81,9 @@ export default function Home() {
             <p className={inter.className}>
             How would you compare Next.js with another framework?
             </p>
-          </a>
+          </Link>
 
-          <a
+          <Link
             href="/responses/four"
             className={styles.card}
           >
@@ -93,9 +94,9 @@ export default function Home() {
             When would you use Edge Functions, Serverless Functions, or Edge
 Middleware with Vercel?
             </p>
-          </a>
+          </Link>
 
-          <a
+          <Link
             href="/responses/five"
             className={styles.card}
           >
@@ -105,9 +106,9 @@ Middleware with Vercel?
             <p className={inter.className}>
             Build issue first response.
             </p>
-          </a>
+          </Link>
 
-          <a
+          <Link
             href="/responses/six"
             className={styles.card}
           >
@@ -117,9 +118,9 @@ Middleware with Vercel?
             <p className={inter.className}>
             Most common customer issues.
             </p>
-          </a>
+          </Link>
 
-          <a
+          <Link
             href="/responses/seven"
             className={styles.card}
           >
@@ -129,7 +130,7 @@ Middleware with Vercel?
             <p className={inter.className}>
             How could we improve or alter this familiarization exercise?
             </p>
-          </a>
+          </Link>
         </div>
       </main>
     </>
