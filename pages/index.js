@@ -17,8 +17,8 @@ export default function Home() {
       <main className={styles.main}>
         <div className={styles.description}>
           <p>
-            Get started by editing&nbsp;
-            <code className={styles.code}>pages/index.js</code>
+            All Responses to CSE excercise found under&nbsp;
+            <code className={styles.code}>pages/responses/</code>
           </p>
           <div>
             <a
@@ -40,80 +40,94 @@ export default function Home() {
         </div>
 
         <div className={styles.center}>
-          <Image
-            className={styles.logo}
-            src="/next.svg"
-            alt="Next.js Logo"
-            width={180}
-            height={37}
-            priority
-          />
-          <div className={styles.thirteen}>
-            <Image
-              src="/thirteen.svg"
-              alt="13"
-              width={40}
-              height={31}
-              priority
-            />
-          </div>
+        <p>Hello, I'm Holden. I'm a software developer and writer (Poetry). You can contact me on{' '} 
+          <a href="https://www.linkedin.com/in/holden-altaffer-609033ab/">Linkedin</a>.
+        </p>
         </div>
 
         <div className={styles.grid}>
           <a
-            href="https://nextjs.org/docs?utm_source=create-next-app&utm_medium=default-template&utm_campaign=create-next-app"
+            href="/responses/one"
             className={styles.card}
-            target="_blank"
-            rel="noopener noreferrer"
           >
             <h2 className={inter.className}>
-              Docs <span>-&gt;</span>
+              ONE <span>-&gt;</span>
             </h2>
             <p className={inter.className}>
-              Find in-depth information about Next.js features and&nbsp;API.
+            What do you want to learn or do more of at work?
             </p>
           </a>
 
           <a
-            href="https://nextjs.org/learn?utm_source=create-next-app&utm_medium=default-template&utm_campaign=create-next-app"
+            href="/responses/two"
             className={styles.card}
-            target="_blank"
-            rel="noopener noreferrer"
           >
             <h2 className={inter.className}>
-              Learn <span>-&gt;</span>
+              TWO <span>-&gt;</span>
             </h2>
             <p className={inter.className}>
-              Learn about Next.js in an interactive course with&nbsp;quizzes!
+            Describe how you solved a challenge?
             </p>
           </a>
 
           <a
-            href="https://vercel.com/templates?framework=next.js&utm_source=create-next-app&utm_medium=default-template&utm_campaign=create-next-app"
+            href="/responses/three"
             className={styles.card}
-            target="_blank"
-            rel="noopener noreferrer"
           >
             <h2 className={inter.className}>
-              Templates <span>-&gt;</span>
+              THREE <span>-&gt;</span>
             </h2>
             <p className={inter.className}>
-              Discover and deploy boilerplate example Next.js&nbsp;projects.
+            How would you compare Next.js with another framework?
             </p>
           </a>
 
           <a
-            href="https://vercel.com/new?utm_source=create-next-app&utm_medium=default-template&utm_campaign=create-next-app"
+            href="/responses/four"
             className={styles.card}
-            target="_blank"
-            rel="noopener noreferrer"
           >
             <h2 className={inter.className}>
-              Deploy <span>-&gt;</span>
+              FOUR <span>-&gt;</span>
             </h2>
             <p className={inter.className}>
-              Instantly deploy your Next.js site to a shareable URL
-              with&nbsp;Vercel.
+            When would you use Edge Functions, Serverless Functions, or Edge
+Middleware with Vercel?
+            </p>
+          </a>
+
+          <a
+            href="/responses/five"
+            className={styles.card}
+          >
+            <h2 className={inter.className}>
+              FIVE <span>-&gt;</span>
+            </h2>
+            <p className={inter.className}>
+            Build issue first response.
+            </p>
+          </a>
+
+          <a
+            href="/responses/six"
+            className={styles.card}
+          >
+            <h2 className={inter.className}>
+              SIX <span>-&gt;</span>
+            </h2>
+            <p className={inter.className}>
+            Most common customer issues.
+            </p>
+          </a>
+
+          <a
+            href="/responses/seven"
+            className={styles.card}
+          >
+            <h2 className={inter.className}>
+              SEVEN <span>-&gt;</span>
+            </h2>
+            <p className={inter.className}>
+            How could we improve or alter this familiarization exercise?
             </p>
           </a>
         </div>

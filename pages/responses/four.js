@@ -1,5 +1,9 @@
+import styles from '@/styles/Home.module.css'
+
 export default function Four() {
-    return <div>
+    return <>
+    <main className={styles.main}>
+    <div className={styles.description}>
         <ul>
             <li>
                 EdgeFunctions: Edge Functions are useful when you need to interact with data over the network as fast as possible, such as executing OAuth callbacks, responding to webhook requests, or interacting with an API that fails if a request is not completed within a short time limit.
@@ -12,4 +16,6 @@ export default function Four() {
             </li>
         </ul>
     </div>
+    </main>
+  </>
   }
